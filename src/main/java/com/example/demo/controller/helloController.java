@@ -13,5 +13,8 @@ public class helloController {
     public String test(){
         return "test";
     }
-
+    @GetMapping("/eclipse")
+    public String eclipse(){
+        return "eclipse";
+    }
 }
